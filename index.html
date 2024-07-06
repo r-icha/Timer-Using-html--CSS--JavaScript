@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continuous Sound Timer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="timer-container">
-        <h1>Set Timer</h1>
-        <input type="number" id="minutes" placeholder="Minutes">
-        <input type="number" id="seconds" placeholder="Seconds">
-        <button id="startStopButton" onclick="toggleTimer()">Start Timer</button>
-        <div id="timerDisplay">00:00</div>
-    </div>
-    <script src="script.js"></script>
+  <div class="timer-container">
+    <h3>TIMER</h3>
+    <input type="number" id="minutes" placeholder="Minutes">
+    <input type="number" id="seconds" placeholder="Seconds">
+    <div class="timer" id="timerDisplay">00:00</div>
+    <button id="startStopButton" onclick="toggleTimer()">Start Timer</button>
+    <audio id="timerSound" src="start-sound.mp3" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

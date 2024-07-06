@@ -41,3 +41,58 @@ button:hover {
     margin-top: 20px;
     font-size: 48px;
 }
+
+/* for smalll devices */
+@media only screen and (max-width: 100px) {
+    .timer-container {
+        font-size: 36px;
+      }
+    
+      button {
+        font-size: 14px;
+      }
+}
+/* for tablets , large phones */
+
+@media only screen and (min-width: 900px) {
+    .timer-container {
+      font-size: 36px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+
+  /* landscape tablets */
+  @media only screen and (min-width: 800px) {
+    .timer-container {
+        font-size: 36px;
+      }
+    
+      button {
+        font-size: 14px;
+      }
+  }
+/* large desktop */
+  @media only screen and (min-width: 100px) {
+    .timer-container {
+        font-size: 36px;
+      }
+    
+      button {
+        font-size: 14px;
+      }
+  }
+
+  /* extra large */
+  @media only screen and (min-width: 1500px) {
+    .timer-container {
+        font-size: 36px;
+      }
+    
+      button {
+        font-size: 14px;
+      }
+  } 
+
